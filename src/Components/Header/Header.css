@@ -1,0 +1,41 @@
+.top-header {
+    background-color: rgb(223, 247, 240) !important;
+    height: 6vh;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.top-header img {
+    width: 70px ;
+    height: 40px;
+    padding: auto;
+}
+.top-header .offer-text {
+    color: red;
+   
+}
+.top-header .nav-link {
+    font-size: 18px !important;
+    font-weight: 400;
+
+}
+.nav-link .fa-whatsapp {
+    color: green;
+    font-weight: bolder;
+}
+@media screen and (max-width: 768px) {
+    .top-header .nav-link {
+        font-size: 10px !important;
+    }
+    .top-header .offer-text {
+        font-size: 10px;
+        
+        
+    }
+    .top-header img {
+        width: 40px;
+        height: 30px;
+    }
+    .top-header .marque-text {
+        max-width: 150px !important;
+
+    }
+  }

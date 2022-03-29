@@ -1,0 +1,47 @@
+/*office information css */
+.office-info-section {
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.follow-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+.follow-icon-link > .fa-instagram-square{
+    color: black;
+    font-size: 30px;
+    transition:all 0.4s ease 0s;
+}
+.follow-icon-link > .fa-facebook{
+    color: black;
+    font-size: 30px;
+    transition:all 0.4s ease 0s;
+}
+.follow-icon-link > .fa-youtube{
+    color: black;
+    font-size: 30px;
+    transition:all 0.4s ease 0s;
+}
+.follow-icon-link > .fa-google-plus{
+    color: black;
+    font-size: 30px;
+    transition:all 0.4s ease 0s;
+}
+.follow-icon-link > .fa-instagram-square:hover{
+    color: rgb(231, 20, 178);
+    transform: scale(1.1);
+}
+.follow-icon-link > .fa-facebook:hover{
+    color: rgb(76, 161, 240);
+    transform: scale(1.1);
+}
+.follow-icon-link > .fa-google-plus:hover{
+    color: rgb(190, 31, 31);
+    transform: scale(1.1);
+}
+.follow-icon-link > .fa-youtube:hover{
+    color: rgb(255, 23, 23);
+    transform: scale(1.1);
+}

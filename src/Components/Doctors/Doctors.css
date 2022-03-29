@@ -1,0 +1,32 @@
+.doctor-container {
+    margin-top: 5rem !important;
+}
+.doctors-card-wraper {
+    display: flex;
+    justify-content: space-around;
+    background:#fff;
+    padding: 30px;
+}
+.doctors-card-wraper .card {
+    width: 25rem !important;
+    padding: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.doctors-card-wraper .card-img-top {
+    height: 40vh !important;
+    transition: all 0.4s ease 0s;
+}
+.doctors-card-wraper .card-img-top:hover {
+    transform: scale(1.1) !important;
+}
+.doctors-card-wraper .card-title  {
+    color: #fa2020 !important;
+    font-weight: 700;
+    font-size: 25px;
+}
+.doctors-card-wraper .card p {
+ font-weight: 700;
+ line-height: 18px;
+ font-size: 16px;
+}

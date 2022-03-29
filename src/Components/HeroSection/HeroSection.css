@@ -1,0 +1,161 @@
+
+.hero-container {
+    background: url('/public/images/hero.jpg') center center/cover no-repeat; 
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    animation: changeBackgroundImage 13s infinite;
+    overflow: hidden;
+   
+  }
+  @keyframes changeBackgroundImage {
+    15% {
+      background: url('/public/images/hero.jpg') center center/cover no-repeat;
+    }
+    25% {
+      background: url('/public/images/hero1.jpg') ;
+    }
+    50% {
+      background: url('/public/images/hero2.jpg');
+    }
+    75% {
+      background: url('/public/images/hero3.jpg');
+    }
+    100% {
+        background: url('/public/images/hero4.jpg');
+      }
+  }
+ 
+  .hero-container > span {
+    color: #fff;
+    font-size: 100px;
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+  .hero-container > h1 {
+    margin-top: 10px;
+    color:#44318D;
+    text-align: right;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: 4px;
+    margin-right: 4rem;
+    text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+  }
+  .hero-container > h3 {
+    margin-top: 8rem;
+    color: #fff !important; 
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    text-align: right;
+    margin-right: 6rem;
+  }
+  .hero-container > p {
+    margin-top: 12px;
+    color: #e4e1e1 !important; 
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+      text-align: right;
+      margin-right: 4rem;
+      -webkit-text-stroke: 0.5px black;
+    }
+ 
+  .hero-btns {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 4rem;
+    
+  }
+
+  .hero-btns > button {
+    text-align: center;
+    color: #fff;
+    background-color: #D83F87;
+    height: 10vh;
+    width: 12rem;
+    border: none;
+    font-size: 18px;
+    transition: all 0.4s ease 0s;
+    font-weight: 600;
+  }
+  .hero-btns > button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .hero-btns > button:hover{
+    transform: scale(0.9);
+  }
+  .hero-btns .contact-btn {
+    background-color: #116466;
+    margin-right: 1rem;
+  }
+  .hero-btns .btn {
+    margin: 6px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .hero-container  {
+      font-size: 70px;
+      align-items: center;
+    
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h1 {
+      margin-top: -100px;
+      margin-right: 0px;
+      font-size: 70px;
+      text-align: center;
+    }
+  
+    .hero-container > p {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 30px;
+      margin-right: 0px;
+    }
+    .hero-container > h3 {
+      margin-bottom: 6rem;
+      margin-right: 0px;
+    }
+    .hero-container > span {
+      font-size: 50px;
+      text-align: center;
+    }
+  
+    .hero-btns {
+      display: block;
+      text-decoration: none;
+      margin-right: 0rem !important;
+      text-align: center;
+    
+    }
+  
+    .hero-btns {
+      width: 80%;
+    }
+    .hero-btns .contact-btn {
+      margin-right: 0rem;
+    }
+  }
+  

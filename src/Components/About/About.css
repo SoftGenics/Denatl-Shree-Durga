@@ -1,0 +1,35 @@
+.doctor-container {
+    margin-top: 5rem !important;
+    padding: 1rem;
+
+}
+.about-card-wraper {
+    display: flex;
+    justify-content: space-around;
+    background:#fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.about-card-wraper .card {
+
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.about-card-wraper .card-img-top {
+    height: 50vh !important;
+    transition: all 0.4s ease 0s;
+    transform: scale(0.9);
+}
+.about-card-wraper .card-img-top:hover {
+    transform: scale(1.0) !important;
+}
+.about-card-wraper .card-title  {
+    color: #5c5b5b !important;
+    font-size: 25px;
+}
+.about-card-wraper .card p {
+ font-weight: 700;
+ line-height: 18px;
+ font-size: 16px;
+}
